@@ -1,0 +1,92 @@
+body{
+    background: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+#app{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px; 
+}
+
+#zip{
+    display:block;
+    width: 400px;
+    height: 100px;
+    background:#22b2da;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+}
+#feelings{
+    background:#22b2da;
+    color: #000000;
+    width: 400px;
+    height: 100px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    text-align: center;
+}
+button{
+    display: block;
+    width: 400px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    justify-content: center;
+    position: relative;
+}
+.entry{
+    margin-top: 10px;
+    background: #22b2da;
+    justify-content: center;
+    height: 100px;
+    
+}
+
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: black;
+}
+
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: rgba(49, 48, 48, 0.76); 
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+} 
+::-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: rgba(49, 48, 48, 0.76); 
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+} 
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color:  rgba(49, 48, 48, 0.76); 
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+} 
